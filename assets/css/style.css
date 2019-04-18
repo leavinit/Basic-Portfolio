@@ -6,6 +6,8 @@ html, body {
 }
 
 body {
+    padding-top: 7em ;
+    padding-bottom: 2em;
     background-image: url("../images/dark-honeycomb.png") ;
     display: flex ;
     flex-direction: column ;
@@ -14,10 +16,15 @@ body {
 
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
-    padding: 5px 15px 5px 15px ;
+    padding: 5px 15px 10px 15px ;
+    
+    
 }
 .header {
-   
+    width: 100% ;
+    top: 0 ;
+    left: 0;
+    position: fixed;
     background-color: #ffffff ;
     border-bottom: 1px solid #cccccc;
 }
@@ -65,14 +72,20 @@ h1 {
 }
 .mainContent h1 {
     color: #4aaaa5 ;
+    border-bottom: 1px solid #a1a1a1 ;
+
 }
 .mainContent p {
     padding: 5px 15px 5px 15px ;
     line-height: 1.5em ;
 }
+
 .footer {
-    flex-shrink: 0;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: #666666 ;
     border-top: 8px solid #4aaaa5 ;
-    text-align: center ;
-}
+    text-align: center;
+ }
