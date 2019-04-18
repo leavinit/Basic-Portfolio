@@ -6,7 +6,7 @@ html, body {
 }
 
 body {
-    background-image: url("../images/dust_scratches.png") ;
+    background-image: url("../images/dark-honeycomb.png") ;
     display: flex ;
     flex-direction: column ;
     
@@ -47,6 +47,7 @@ h1 {
 .linksArea a {
     padding: 20px ;
     color: #777777;
+    text-decoration: none ;
     
 }
 .mainContent {
@@ -67,6 +68,7 @@ h1 {
 }
 .mainContent p {
     padding: 5px 15px 5px 15px ;
+    line-height: 1.5em ;
 }
 .footer {
     flex-shrink: 0;
