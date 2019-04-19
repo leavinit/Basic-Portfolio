@@ -17,7 +17,7 @@ body {
 h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     padding: 5px 15px 10px 15px ;
-    
+    font-size: 1.5em ;
     
 }
 .header {
@@ -65,7 +65,7 @@ h1 {
     
     margin-left: auto ;
     margin-right: auto ;
-    
+
     
     flex: 1 0 auto ;
     
@@ -80,6 +80,15 @@ h1 {
     line-height: 1.5em ;
 }
 
+form, input {
+    width: 90% ;
+    height: 1.5em ;
+    padding-left: 2em;
+}
+textarea {
+    width: 93% ;
+    /* padding-left: 1.5 em; */
+}
 .footer {
     position: fixed;
     left: 0;
