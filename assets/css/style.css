@@ -29,8 +29,7 @@ h1 {
     border-bottom: 1px solid #cccccc;
 }
 
-.titleBox 
-{
+.titleBox {
     width : 960px ;
     margin: auto ;
     display: flex ;
@@ -51,18 +50,21 @@ h1 {
     align-items: center;
 
 }
+
 .linksArea a {
     padding: 20px ;
     color: #777777;
     text-decoration: none ;
     
 }
+
 .mainContent {
     border: 1px solid #dddddd ;
     background-color: #ffffff ;
     width: 960px ;
     display: block ;
-    
+    z-index: -100 ;
+
     margin-left: auto ;
     margin-right: auto ;
 
@@ -70,14 +72,17 @@ h1 {
     flex: 1 0 auto ;
     
 }
+
 .mainContent h1 {
     color: #4aaaa5 ;
     border-bottom: 1px solid #a1a1a1 ;
 
 }
+
 .mainContent p {
     padding: 5px 15px 5px 15px ;
     line-height: 1.5em ;
+    
 }
 
 form, input {
@@ -85,10 +90,50 @@ form, input {
     height: 1.5em ;
     padding-left: 2em;
 }
+
 textarea {
     width: 93% ;
-    /* padding-left: 1.5 em; */
+    
 }
+
+.pics {
+    display: flex;
+    flex-wrap: wrap;
+}
+.pics img {
+    padding: 20px 30px ;
+    
+    
+}
+
+.picwrap {
+    /* border: 1px solid green ; */
+    position: relative; 
+    
+}
+
+.picwrap h3 {
+    position: absolute;
+    top: 0; 
+    margin: 10px;
+    
+    width: 90%; 
+    background-color: #4aaaa5 ;
+    /* border: 1px solid red ; */
+ 
+}
+
+h3 span { 
+    position: relative;
+    color: white; 
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    padding: 10px; 
+ }
+
+h3 span.spacer {
+    padding:0 10px;
+ }
+
 .footer {
     position: fixed;
     left: 0;
