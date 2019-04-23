@@ -58,6 +58,10 @@ h1 {
     
 }
 
+.linksAreaSmall {
+    display: none ;
+}
+
 .mainContent {
     border: 1px solid #dddddd ;
     background-color: #ffffff ;
@@ -138,3 +142,46 @@ h3 span {
     text-align: center;
     
  }
+
+ /* MEDIA SCREEN QUERIES FOR MOBILE RESPONSIVENESS */
+ @media screen and (max-width: 980px) {
+    .header {
+        background-color: olive;
+    }
+    .linksAreaSmall {
+        display: none ;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .header {  
+        background-color: orange;
+    }
+    .linksAreaSmall {
+        display: none ;
+    }
+  }
+
+  @media screen and (max-width: 640px) {
+    .header {
+        background-color: red;
+        position: absolute;
+    }
+    .linksArea {
+        display: none;
+    }
+    .linksAreaSmall {
+
+        background-color: blue;
+        display: flex ; 
+        align-items: center;
+    }
+
+    
+    .linksAreaSmall a {
+        padding: 20px ;
+        color: #777777;
+        text-decoration: none ;
+        
+    }
+  }
